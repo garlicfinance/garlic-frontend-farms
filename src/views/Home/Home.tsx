@@ -65,15 +65,6 @@ const Home: React.FC = () => {
         <Text>{TranslateString(578, 'The Best Yield Farm DApp on Binance Smart Chain.')}</Text>
       </Hero>
       <div>
-        <div style={{ fontSize: "32px", textAlign: "center", margin: 'auto', alignItems: 'center', display: 'flex', justifyContent: 'center',}}>
-          <Text style={{ fontSize: "32px" }} > Farming will start on Block <a style={{ color: "blue"}} href="https://bscscan.com/block/countdown/5768900">#5768900</a>. But you can still deposit.</Text>
-        </div>
-        <div style={{ fontSize: "32px", textAlign: "center", margin: 'auto', alignItems: 'center', display: 'flex', justifyContent: 'center',}}>
-          <Text style={{ fontSize: "32px" }}>ETA :  Wed Mar 17 2021 +-20:18:41 UTC</Text>
-        </div>
-        <div style={{ fontSize: "32px", textAlign: "center", margin: 'auto', alignItems: 'center', display: 'flex', justifyContent: 'center',}}>
-          <Text>.</Text>
-        </div>
         <Cards>
           <FarmStakingCard />
           <TwitterCard/>
